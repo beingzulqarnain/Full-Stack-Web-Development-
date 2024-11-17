@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!-- 1. Character Encoding -->
+   <meta charset="UTF-8">
+   <!-- 2. Viewport Settings ofr Mobile Optimization -->
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- 3. Document Meta Description,Keywords & Author  -->
+   <meta name="description" content="HTML(HyperText Markup Language)is the standard language used to create and structure content on the web. It uses a system of tags and elements to define the structure of webpages, such as headings, paragraphs, images, links, and more. HTML serves as the backbone of web development, allowing browsers to interpret and display the content for users.">
+   <meta name="keywords" content="Html,Seo,Html Crash Course,Html5,Web development,Html for beginners,learn Html,Html 2025">
+   <meta name="auhor" content="Zul Qarnain">
+   <!-- 4. Title Tag In Head  -->
+   <title>Episode - 3 | HTML Series</title>
+   <!-- 5. External Resources  -->
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <!-- <script src="./index.js"></script> -->
+</head>
+<body>
+     <h1 align="center" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Create Table In HTML</h1>
+      <table style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;" width="900px" bgcolor="#F96E2A" align="center" cellpadding="10px" cellspacing="10px">
+        <thead bgcolor="#F5F5DC">
+            <th>Student ID</th>
+            <th>Student Name</th>
+            <th>Gender</th>
+            <th>Age</th>
+        </thead>
+        <tbody align="center" bgcolor="#FBF8EF">
+            <tr>
+                <td>#456BC</td>
+                <td>Ahmad</td>
+                <td>Male</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>#286BC</td>
+                <td>Khalil</td>
+                <td>Male</td>
+                <td>24</td>
+            </tr>
+            <tr>
+                <td>#676BC</td>
+                <td>Qazi Hassan</td>
+                <td>Male</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>#326BC</td>
+                <td>Arifullah</td>
+                <td>Male</td>
+                <td>26</td>
+            </tr>
+            <tr>
+                <td>#376BC</td>
+                <td>Mehar</td>
+                <td>Female</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>#536BC</td>
+                <td>Kinza Yousaf</td>
+                <td>Female</td>
+                <td>30</td>
+            </tr>
+            
+        </tbody>
+        <tfoot></tfoot>
+      </table>
+      <br>
+      <hr>
+             <h1 align="center" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Create Tables In HTML</h1>
+             <table width="850px" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;" border="1" align="center" cellpadding="8px" cellspacing="8px" bgcolor="#FBF8EF">
+                <tr align="center">
+                    <td>Column 1</td>
+                    <td>Column 2</td>
+                    <td>Column 3</td>
+                </tr>
+                <tr align="center">
+                    <td rowspan="2">Row 1 Cell 1</td>
+                    <td>Row 1 Cell 2</td>
+                    <td>Row 1 Cell 3</td>
+                </tr>
+                <tr align="center">
+                    
+                    <td>Row 2 Cell 2</td>
+                    <td>Row 2 Cell 3</td>
+                </tr >
+                <tr >
+                    <td colspan="3">Row 3 Cell 1</td>
+                </tr>
+             </table>
+             <br>
+             <hr>
+             <!-- table>(thead>th*5)+tbody>(tr>td*4)*4+tfoot>tr>td -->
+             <table border="2" align="center" width="900px" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;" cellpadding="10px" cellspacing="10px"  bgcolor="#F5F5DC">
+                <thead align="center">
+                    <th>No.</th>
+                    <th>Full Name</th>
+                    <th>Position</th>
+                    <th>Salary</th>
+                    <th>Type</th>
+                </thead>
+                <tbody align="center">
+                    <tr>
+                        <td>1</td>
+                        <td>Bill Gates</td>
+                        <td>Founder Microsoft</td>
+                        <td>$1000</td>
+                        <td rowspan="4">Company Founder</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Steve Jobs</td>
+                        <td>Apple</td>
+                        <td>$1200</td>
+                       
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Larry Page</td>
+                        <td>Founder Google</td>
+                        <td>$1100</td>
+                       
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Mark Zuckerburg</td>
+                        <td>Founder Facebook</td>
+                        <td>$1300</td>
+                       
+                    </tr>
+                    <tfoot align="center">
+                        <tr>
+                            <td  colspan="3">Total Expensive:</td>
+                            <td>$4600</td>
+                        </tr>
+                    </tfoot>
+                </tbody>
+             </table>
+             <br>
+             <hr>
+             <h1 align="center" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Multiple Record Table In HTML</h1>
+             <table border="2" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;" align="center" width="900px"  bgcolor="#F5F5DC" cellpadding="10px" cellspacing="10px">
+                <thead>
+                    <th>Country</th>
+                    <th>States</th>
+                    <th>City</th>
+                    <th>Street</th>
+                    <th>Male</th>
+                    <th>Female</th>
+                    <th>Others</th>
+                </thead>
+                <tbody align="center">
+                    <tr>
+                        <td rowspan="8">1</td>
+                        <td rowspan="4">Kerala</td>
+                        <td rowspan="2">Cochin</td>
+                        <td>New Street</td>
+                        <td>500</td>
+                        <td>600</td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <td>Main Street</td>
+                        <td>300</td>
+                        <td>288</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">Trivandrum</td>
+                        <td>Main Street</td>
+                        <td>300</td>
+                        <td>600</td>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <td>Main Street</td>
+                        <td>300</td>
+                        <td>600</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="4">Maharastra</td>
+                        <td rowspan="2">Mumbia</td>
+                        <td>Main Street</td>
+                        <td>300</td>
+                        <td>850</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>Main Street</td>
+                        <td>300</td>
+                        <td>600</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">Surath</td>
+                        <td>Main Street</td>
+                        <td>300</td>
+                        <td>600</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>Main Street</td>
+                        <td>300</td>
+                        <td>600</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">2</td>
+                        <td rowspan="2">Alaska</td>
+                        <td rowspan="2">Aka central</td>
+                        <td>Main Street</td>
+                        <td>288</td>
+                        <td>210</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>Main Street</td>
+                        <td>288</td>
+                        <td>1050</td>
+                        <td>10</td>
+                    </tr>
+                </tbody>
+             </table>
+</body>
+</html>
