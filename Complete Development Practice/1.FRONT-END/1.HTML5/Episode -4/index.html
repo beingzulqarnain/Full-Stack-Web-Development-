@@ -118,6 +118,40 @@
     <hr>
     <br>
     <input type="week">
-      
+      <hr>
+      <br>
+      <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="John" readonly><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="Doe">
+      </form>
+      <hr>
+      <br>
+      <form>
+        <label for="country_code">Country code:</label>
+        <input type="text" id="country_code" name="country_code"
+        pattern="[A-Za-z]{3}" title="Three letter country code">
+      </form>
+      <hr>
+      <br>
+      <form>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <button>Click</button>
+      </form>
+      <hr><br>
+      <form>
+        <label for="points">Points:</label>
+        <input type="number" id="points" name="points" step="3">
+      </form>
+      <br>
+      <hr>
+      <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" autofocus><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" autofocus>
+      </form>
 </body>
 </html>
