@@ -17,6 +17,7 @@
       <script src="./index.js"></script>
 </head>
 <body style="font-family:'poppins'; background: linear-gradient(90deg, rgba(219,192,238,0.5) 0%,   rgba(220,179,152,0.3) 83%, rgba(155,225,147,0.3723486806832108) 100%);">
+    
     <h2>Zul Qarnain | Portfolio</h2>
     Contact | <a href="mailto:zulqarnainafridi0001@gmail.com">zulqarnainafridi0001@gmail.com</a><br>
     LinkdIn | <a href="#">linkdIn/in/being-zulqarnain</a><br>
@@ -216,6 +217,73 @@
             </ul>
         </li>
       </ul>
-      <p>@ 2025 Zulqarnain. All Rights Reserved.</p>
+      <section>
+        <h2>Frequently Asked Questions</h2>
+        <details>
+            <summary><strong>Question 1:</strong> What is React, and why is it used for building web applications? </summary>
+            <p><strong>Answer:</strong> React is a JavaScript library developed by Facebook for building user interfaces, especially for single-page applications. It is used to create fast and interactive web applications by managing the view layer efficiently. React allows developers to create reusable components, making the code modular and easier to maintain. It also uses a Virtual DOM to improve performance by minimizing direct interactions with the real DOM.</p>
+        </details>
+        <details>
+            <summary><strong>Question 2:</strong> What are components in React, and how are they different from regular JavaScript functions? </summary>
+            <p><strong>Answer:</strong> Components in React are the building blocks of a React application. They define reusable pieces of UI and logic. Components can be functional (written as functions) or class-based (written as ES6 classes). Unlike regular JavaScript functions, React components return JSX, which represents how the UI should look. Components can also manage their state and lifecycle.
+            <h6>For Example</h6>
+            <pre>
+                // Regular JavaScript function
+                function sayHello() {
+                  return "Hello!";
+                }
+                
+                // React functional component
+                function Greeting() {
+                  return 
+                  <h5>Hello, world!</h5>;
+                }
+            </pre>
+            </p>
+        </details>
+        <details>
+            <summary><strong>Question 3:</strong> What is the purpose of props in React, and how do you use them to pass data between components? </summary>
+            <p><strong>Answer:</strong> (short for properties) are used in React to pass data from a parent component to a child component. They are read-only and cannot be modified by the child component. Props make components reusable and dynamic by allowing them to render different data.</p>
+        </details>
+        <details>
+            <summary><strong>Question 4:</strong> How do you create a simple functional component in React? Write an example. </summary>
+            <p><strong>Answer:</strong> A functional component in React is a simple JavaScript function that returns JSX (HTML-like syntax).</p>
+            <pre>
+                Example:
+
+
+
+                function HelloWorld() {
+                return <h5>Hello, World!</h5>;
+                }
+
+                // Using the HelloWorld component
+                function App() {
+                return (
+                    <div>
+                    <HelloWorld />
+                    </div>
+                );
+                }
+    This example creates a HelloWorld component that renders the text "Hello, World!" on the screen.
+            </pre>
+        </details>
+        <details>
+            <summary><strong>Question 5:</strong> What is JSX in React, and how is it different from regular HTML? </summary>
+            <p><strong>Answer:</strong> JSX (JavaScript XML) is a syntax extension for JavaScript used in React. It allows you to write HTML-like code within JavaScript, which makes it easier to describe the UI structure. Unlike regular HTML, JSX allows you to embed JavaScript expressions directly within curly braces {} and has some syntax differences, like using className instead of class.
+            <pre>
+                // JSX
+                const element = <h5>Hello, {name}!</h5>;
+
+                // Equivalent JavaScript
+                const element = React.createElement('h1', null, `Hello, ${name}!`);
+            </pre>
+            </p>
+        </details>
+      </section>
+      <hr>
+      <footer>
+          <p>&copy; 2025 Zulqarnain. All Rights Reserved.</p>
+      </footer>
 </body>
 </html>
