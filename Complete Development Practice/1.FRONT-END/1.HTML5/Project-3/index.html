@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <!-- 1. Character Encoding -->
+        <meta charset="UTF-8" />
+        <!-- 2. Viewport Settings ofr Mobile Optimization -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- 3. Document Meta Description,Keywords & Author  -->
+        <meta name="description"
+        content="HTML(HyperText Markup Language)is the standard language used to create and structure content on the web. It uses a system of tags and elements to define the structure of webpages, such as headings, paragraphs, images, links, and more. HTML serves as the backbone of web development, allowing browsers to interpret and display the content for users."/>
+        <meta name="keywords"
+        content="Html,Seo,Html Crash Course,Html5,Web development,Html for beginners,learn Html,Html 2025" />
+        <meta name="auhor" content="Zul Qarnain" />
+        <!-- 4. Title Tag In Head  -->
+        <title>Project - 3 | HTML Series</title>
+  </head>
+  <body style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+       <h2>Complex Form</h2>
+       <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="fname">Name</label>
+            <input type="text" id="fname" placeholder="Enter Your Name" required />
+            <br /><br />
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Email" required />
+            <br /><br />
+            <label for="ph">Phone</label>
+            <input type="tel" id="ph" placeholder="+92 3332568427" required />
+            <br /><br />
+            <label for="dob">Date of Birth</label>
+            <input type="datetime-local" id="dob">
+            <br /><br />
+            <label for="gender">Gender</label>
+            <input type="radio" name="gender" value="male"   id="gender">Male
+            <input type="radio" name="gender" value="female" id="gender">Female
+            <input type="radio" name="gender" value="others" id="gender">Prefer not to say
+            <br><br>
+            <label for="country">Country</label>
+            <select name="country" id="country">
+                <option value="pk" selected>Pakistan</option>
+                <option value="uk">United Kingdom</option>
+                <option value="sl">Sri Lanka</option>
+                <option value="ind">India</option>
+                <option value="us">United States</option>
+                <option value="np">Nepal</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Address</legend>
+            <label for="adress">Address Street</label>
+            <input type="text" id="adress"  />
+            <br /><br />
+            <label for="city">City</label>
+            <select name="city" id="city">
+                <option value="pesh" selected>Peshawar</option>
+                <option value="l">Lahore</option>
+                <option value="k">Karachi</option>
+                <option value="isl">Islamabad</option>
+                <option value="fb">Faisalabad</option>
+                <option value="st">Swat</option>
+            </select>
+            <br /><br />
+            <label for="state">State</label>
+            <select name="state" id="state">
+                <option value="pk" selected>Pakistan</option>
+                <option value="uk">United Kingdom</option>
+                <option value="sl">Sri Lanka</option>
+                <option value="ind">India</option>
+                <option value="us">United States</option>
+                <option value="np">Nepal</option>
+            </select>
+            <br /><br />
+            <label for="zc">Zip Code</label>
+            <input type="text" id="zc">
+            
+        </fieldset>
+        <fieldset>
+            <legend>Other Information</legend>
+            <label for="comment">Comment</label><br>
+           <textarea name="" id="comment" cols="30" rows="15" placeholder="Enter a message here ..."></textarea>
+            <br /><br />
+            <input type="checkbox" name="" id=""> I agree to the term of services
+        </fieldset>
+        <input type="button" value="submit">
+       </form>
+
+  </body>
+</html>
