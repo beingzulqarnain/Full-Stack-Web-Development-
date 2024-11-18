@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- 1. Character Encoding -->
+    <meta charset="UTF-8" />
+    <!-- 2. Viewport Settings ofr Mobile Optimization -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- 3. Document Meta Description,Keywords & Author  -->
+    <meta
+      name="description"
+      content="HTML(HyperText Markup Language)is the standard language used to create and structure content on the web. It uses a system of tags and elements to define the structure of webpages, such as headings, paragraphs, images, links, and more. HTML serves as the backbone of web development, allowing browsers to interpret and display the content for users."
+    />
+    <meta
+      name="keywords"
+      content="Html,Seo,Html Crash Course,Html5,Web development,Html for beginners,learn Html,Html 2025"
+    />
+    <meta name="auhor" content="Zul Qarnain" />
+    <!-- 4. Title Tag In Head  -->
+    <title>Project - 2 | HTML Series</title>
+    <!-- 5. External Resources  -->
+    <link rel="stylesheet" href="style.css" />
+    <script src="./index.js"></script>
+  </head>
+  <body style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">
+    <h2>Job Application</h2>
+    <label for="fname">Name</label>
+    <input type="text" id="fname" placeholder="Enter Your Name" required />
+    <br /><br />
+    <label for="email">Email</label>
+    <input type="email" id="email" placeholder="Email" required />
+    <br /><br />
+    <label for="ph">Phone</label>
+    <input type="tel" id="ph" placeholder="+92 3332568427" required />
+    <br /><br />
+    <label for="resume">Resume</label><br />
+    <input type="file" id="resume" required />
+    <br /><br />
+    <label for="exp">Experience (years)</label><br />
+    <select name="exp" id="exp">
+      <option value="1">1</option>
+      <option value="2" selected>2</option>
+      <option value="3">5</option>
+      <option value="4">10</option>
+    </select>
+    <br /><br />
+    <fieldset>
+      <legend>Skills</legend>
+      <input type="checkbox" /><br />HTML<br />
+      <input type="checkbox" /><br />CSS<br />
+      <input type="checkbox" /><br />JavaScript
+    </fieldset>
+    <label for="heducation">Highest Education</label><br />
+    <select name="heducation" id="heducation">
+      <option value="ps">Primary</option>
+      <option value="ss">Secondary</option>
+      <option value="hs" selected>High School</option>
+      <option value="ug">Undergraduate</option>
+    </select><br><br>
+    <label for="avail">Avaliability</label><br />
+    <input type="radio" id="avail" /><br />Full-time<br/>
+    <input type="radio" id="avail" /><br />Part-time<br/><br>
+    <label for="acomment">Additional Comments</label><br />
+    <textarea name="acomment" id="acomment" cols="30" rows="10" placeholder="Enter a message here ..."></textarea>
+    <br>
+    <input type="button" value="Submit">
+  </body>
+</html>
