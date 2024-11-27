@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+/* html,
+body{
+        height: 100%;
+        width: 100%;
+    } */
+    
+    
+/*       
+      .wrapper {
+        font-size: 2em;
+      }
+      
+      .px {
+        width: 700px;
+      }
+      
+      .vw {
+        width: 10vw;
+      }
+      
+      .em {
+        width: 2em;
+      } */
+
+      /* .container h1{
+        font-size: 3rem;
+      } */
+
+
+
+    
+/* .container{
+        width: 100vw;
+        height: 100vh;
+        background-color:antiquewhite;
+        border: 2px dashed green;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 5px;
+} */
+
+/* .parent{
+    border: 1px solid #000;
+    background-color: tomato;
+    width: 50%;
+}
+.child{
+    width:25%;
+    border: 1px solid #000;
+    background-color: aqua;
+    padding: 5px;
+
+} */
