@@ -1,0 +1,15 @@
+/* .container img{
+    float: right;
+} */
+
+p{
+    text-align: justify;
+    /* float: left; */
+}
+.img1{
+    float: right;
+}
+.img2{
+    float: right;
+    clear: both;
+}
