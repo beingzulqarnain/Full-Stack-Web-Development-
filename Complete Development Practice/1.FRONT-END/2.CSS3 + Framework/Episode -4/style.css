@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.box{
+    /* block 
+    always next-line occupied
+    width-height ---respect
+    width-height ---you can easily customize your requirment.
+    padding/Margin ---you can easily customize your requirment.
+    */
+    border: 1px solid red;
+    padding: 5px;
+    width:200px;
+    height:200px;
+    margin: 10px;
+
+}
+/* body{
+    position: relative;
+} */
+span{
+    /* Inline 
+    always same-line occupied
+    width-height ---not respect
+    width-height ---you can not customize your requirment.
+    padding/Margin ---you can give padd and margin right and left.
+    if we give display:block; then all the property below will be applied.
+    */
+    /* display: block; */
+    display:inline-block ;
+    /* position:absolute; */
+    /* top: 60%; */
+    /* left: 80%; */
+    border: 1px solid #000;
+    padding: 10px;
+    width:200px;
+    height:200px;
+    margin: 10px;
+}
