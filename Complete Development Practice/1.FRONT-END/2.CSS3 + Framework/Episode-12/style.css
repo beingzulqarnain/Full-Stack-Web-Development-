@@ -1,0 +1,27 @@
+h1{
+    text-align: center;
+}
+
+.box{
+    width:150px;
+    height:150px;
+    background-color:brown;
+    border: 1px solid #000;
+    /* border-radius: 50%; */
+    margin-left: 20px;
+    margin-top: 20px;
+    transition-property: all;
+    transition-duration: 4s;
+    transition-timing-function:linear;
+    cursor: pointer;
+    /* transition-delay: 1s; */
+}
+.box:hover{
+    width: 1200px;
+    background-color: brown;
+}
+.box h1{
+    color: white;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
