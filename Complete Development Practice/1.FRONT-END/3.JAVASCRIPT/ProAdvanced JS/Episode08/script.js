@@ -3,18 +3,18 @@
 //******************************** */
 //******************************** */
 
-async function fetch(num1,num2){
-   try {
-        let response = await fetch(`https://apicodethread.cyclic.app/sum?a=${num1}&b=${num2}`);
-        let result = await response.json();
-        document.getElementById("totalCal").innerHTML= result.sum;
-        console.log(result);
+// async function fetch(num1,num2){
+//    try {
+//         let response = await fetch(`https://apicodethread.cyclic.app/sum?a=${num1}&b=${num2}`);
+//         let result = await response.json();
+//         document.getElementById("totalCal").innerHTML= result.sum;
+//         console.log(result);
       
-   }
-   catch (error) {
-    console.log(error);
-   }  
-}
+//    }
+//    catch (error) {
+//     console.log(error);
+//    }  
+// }
 // api();
 
 document.getElementById("btn").addEventListener("click",() => {
