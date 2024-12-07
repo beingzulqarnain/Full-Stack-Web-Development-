@@ -26,7 +26,7 @@
     // const body = document.getElementById('body');
     // body.appendChild(newTag)
     
-    // console.log(newTag);
+    console.log(newTag);
     
 
     // const data = ["Monitor","Keyboard","Mic","Laptop","Mouse"];
