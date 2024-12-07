@@ -3,15 +3,15 @@
 
 
 //Searching the items Functionality
-function searchFood(item){
-    return new Promise((resolve,reject) => {
-        console.log("Searching start for ......");
-        setTimeout(() => {
-          let data = `list of data is ${item}`;
-          resolve({item,data});
-        },3000)
-    }); 
-}
+// function searchFood(item){
+//     return new Promise((resolve,reject) => {
+//         console.log("Searching start for ......");
+//         setTimeout(() => {
+//           let data = `list of data is ${item}`;
+//           resolve({item,data});
+//         },3000)
+//     }); 
+// }
 
 //Ordering Food Functionality
 function orderFood(item){
