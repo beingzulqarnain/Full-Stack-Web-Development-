@@ -4,7 +4,7 @@
  const box2 = document.querySelector(".box1");
  const items = document.getElementsByClassName("item");
 
-// AddEventListner
+// AddEventListner added
 
   for(let item of items){
     item.addEventListener('dragstart',(e) => {
