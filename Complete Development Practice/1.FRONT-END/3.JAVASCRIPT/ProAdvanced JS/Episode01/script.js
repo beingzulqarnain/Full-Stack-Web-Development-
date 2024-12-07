@@ -1,4 +1,4 @@
-// console.log("Hello Friends....");
+console.log("Hello Friends....");
 
 
 // let firstName = "Code Thread";
