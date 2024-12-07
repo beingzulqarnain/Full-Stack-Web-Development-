@@ -1,6 +1,6 @@
 // **************Promise*************
 
-// console.log("start");
+console.log("start");
 
 function isData(item){
     const promise1 = new Promise(function fun1(resolve,reject){
