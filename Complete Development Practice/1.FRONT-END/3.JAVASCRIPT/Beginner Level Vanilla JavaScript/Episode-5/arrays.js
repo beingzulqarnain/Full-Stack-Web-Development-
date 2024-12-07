@@ -5,7 +5,7 @@
 // arr.shift(); from starting add numbers
 // arr.unshift(8,9,10); from ending it can added number
 
-// let newArray = arr.concat(4,3,6,2);
+let newArray = arr.concat(4,3,6,2);
 // let newArray = arr.join('-');
 // let newArray = arr.indexOf(4); searching 4 is in which index store.
 // let newArray = arr.lastIndexOf(5);
