@@ -11,19 +11,19 @@
 //     document.getElementById("display").innerText = localStorage.getItem("data");
 // }
 
-document.getElementById("inputField").addEventListener("click",(e) => {
-    // console.log(e.target.value);
-    let name = document.getElementById("name").value;
-    let rollNo = document.getElementById("rollNo").value;
+// document.getElementById("inputField").addEventListener("click",(e) => {
+//     // console.log(e.target.value);
+//     let name = document.getElementById("name").value;
+//     let rollNo = document.getElementById("rollNo").value;
 
-    localStorage.setItem("data",JSON.stringify({name : name,rollNo : rollNo}))
-    document.getElementById("display").innerText = JSON.parse(localStorage.getItem("data")).name;
-    document.getElementById("display1").innerText = JSON.parse(localStorage.getItem("data")).rollNo;
+//     localStorage.setItem("data",JSON.stringify({name : name,rollNo : rollNo}))
+//     document.getElementById("display").innerText = JSON.parse(localStorage.getItem("data")).name;
+//     document.getElementById("display1").innerText = JSON.parse(localStorage.getItem("data")).rollNo;
    
-})
-document.getElementById("display").innerText = JSON.parse(localStorage.getItem("data")).name;
-document.getElementById("display1").innerText = JSON.parse(localStorage.getItem("data")).rollNo;
-localStorage.clear();
+// })
+// document.getElementById("display").innerText = JSON.parse(localStorage.getItem("data")).name;
+// document.getElementById("display1").innerText = JSON.parse(localStorage.getItem("data")).rollNo;
+// localStorage.clear();
 
 
 // console.log({name:"qarnain",rollNo:1234});
