@@ -27,11 +27,11 @@ function api3(){
     })
 }
 
-let result = Promise.all([api1(),api2(),api3()]).then((data) => {
-    console.log(data);    
-}).catch((error) => {
-    console.log(error);
+// let result = Promise.all([api1(),api2(),api3()]).then((data) => {
+//     console.log(data);    
+// }).catch((error) => {
+//     console.log(error);
     
-})
+// })
 
 
