@@ -4,10 +4,6 @@
 
 //***********Normal Function***********
 
-//function add(){
-//     console.log("Follow Me On Instagram");
-// }
-//     add();
 
 //Simple Function return ==> value
 
