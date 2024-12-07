@@ -17,6 +17,7 @@ const body = document.querySelector("body");
  rangeScroll.addEventListener("input",(e) => {
   e.preventDefault();
 //   console.log(rangeScroll.value);
+//   console.log(rangeScroll.value);
  
 p.innerHTML = rangeScroll.value
 body.appendChild(p);  
