@@ -1,16 +1,16 @@
 // ***************Callback Hell & Inversion ***************
 
 //Searching the items Functionality
-function searchFood(item,cb1){
-    //   console.log("items is ",item);
-    console.log("Searching start for ......");
-    setTimeout(function timer1(){
-      let data = `list of data is ${item}`;
-    //   console.log(data);
-       cb1(item,data)
-        //   return data;
-    },3000)
-}
+// function searchFood(item,cb1){
+//     //   console.log("items is ",item);
+//     console.log("Searching start for ......");
+//     setTimeout(function timer1(){
+//       let data = `list of data is ${item}`;
+//     //   console.log(data);
+//        cb1(item,data)
+//         //   return data;
+//     },3000)
+// }
 
 //Ordering Food Functionality
 function orderFood(item,cb2){
