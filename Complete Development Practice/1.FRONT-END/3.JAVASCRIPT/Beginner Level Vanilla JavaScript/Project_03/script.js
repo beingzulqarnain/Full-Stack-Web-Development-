@@ -45,6 +45,7 @@ btnGen.addEventListener('click',() => {
         
         //  latestPass += finalPass[randNum];
          latestPass += finalPass.charAt(randNum);
+         // latestPass += finalPass.charAt(randNum);
 
 
     }
