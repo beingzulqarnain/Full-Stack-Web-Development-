@@ -1,10 +1,10 @@
 
 
-// function fun1(){
-//     var a = "cake";
-//     console.log(a);    
-// }
-// fun1();
+function fun1(){
+    var a = "cake";
+    console.log(a);    
+}
+fun1();
 
 // var a = "cake";
 // function fun1(){
