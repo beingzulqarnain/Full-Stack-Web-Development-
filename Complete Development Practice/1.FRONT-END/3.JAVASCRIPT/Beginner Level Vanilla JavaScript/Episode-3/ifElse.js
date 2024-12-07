@@ -11,7 +11,7 @@ if(marks >= 40){
 }
 */
 
-//Q-5.2 Write a program that inputs two numbers and finds whether both are equal.
+// Q-5.2 Write a program that inputs two numbers and finds whether both are equal.
 /*
 const num1 = prompt("Enter a number: ");
 const num2 = prompt("Enter a number: ");

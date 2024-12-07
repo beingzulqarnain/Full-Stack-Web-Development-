@@ -1,9 +1,9 @@
 //Loops
-console.log("Hello friends");
-console.log("Hello friends");
-console.log("Hello friends");
-console.log("Hello friends");
-console.log("Hello friends");
+// console.log("Hello friends");
+// console.log("Hello friends");
+// console.log("Hello friends");
+// console.log("Hello friends");
+// console.log("Hello friends");
 
 // For Loops
 
