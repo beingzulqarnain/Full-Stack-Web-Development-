@@ -8,20 +8,20 @@
 
 
 //Searching the items Functionality
-function searchFood(item){
-    return new Promise((resolve,reject) => {
-        console.log("Searching start for ......");
-        setTimeout(() => {
-            let data = `list of data is ${item}`;
-        //  let data = null;
-        //   if(data){
-              resolve({item,data});
-        //   }else{
-        //     reject(new Error("Typically Technical Error Generated !"))
-        //   }
-        },3000)
-    }); 
-}
+// function searchFood(item){
+//     return new Promise((resolve,reject) => {
+//         console.log("Searching start for ......");
+//         setTimeout(() => {
+//             let data = `list of data is ${item}`;
+//         //  let data = null;
+//         //   if(data){
+//               resolve({item,data});
+//         //   }else{
+//         //     reject(new Error("Typically Technical Error Generated !"))
+//         //   }
+//         },3000)
+//     }); 
+// }
 
 //Ordering Food Functionality
 function orderFood(item){
