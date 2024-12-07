@@ -1,7 +1,7 @@
 
 
 const ticToe = document.querySelector('.tictoe');
-let currentPlayer = "X";
+// let currentPlayer = "X";
 
 ticToe.addEventListener('click',(e) => {
         // console.log(e.target);
