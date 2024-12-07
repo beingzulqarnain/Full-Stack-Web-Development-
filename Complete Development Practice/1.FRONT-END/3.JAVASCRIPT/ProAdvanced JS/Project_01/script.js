@@ -1,5 +1,5 @@
-let inputTodo = document.querySelector("#inputtodo");
-let btnButton = document.querySelector("#btn");
+// let inputTodo = document.querySelector("#inputtodo");
+// let btnButton = document.querySelector("#btn");
 {
 // function removeTodo(id){
 //     // console.log(id);
