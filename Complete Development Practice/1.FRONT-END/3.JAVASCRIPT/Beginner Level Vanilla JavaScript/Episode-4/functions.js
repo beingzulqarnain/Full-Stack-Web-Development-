@@ -1,12 +1,12 @@
 // Q-01 Write a program to add two numbers with the help of functions.
 //Parameters
-/*
+
 function addSum(num1,num2){
      let sum = num1 + num2;
      console.log(sum);     
 }
 addSum(22,55); //Arguments
-*/
+
 
 // function studentRecord(english,maths,urdu,bio){
 //      let totalSum = english + maths + urdu + bio;
