@@ -14,11 +14,11 @@ var   firstName = "Aqib khan";
     console.log(firstName);
 }
     */
-/* Function Scope
+// Function Scope
    function Hello(){
     let firstName = "Code Thread";
     console.log(firstName);
     
    }
    Hello();
-   */
+   
