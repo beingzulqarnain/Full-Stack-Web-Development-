@@ -1,5 +1,5 @@
 // Introduction of JS Courses
-/*
+
 console.log("hello friends");
 console.log("Welcome To JS Courses");
 console.log(34 + 45);
@@ -7,7 +7,7 @@ console.log(true);
 console.log("Hello Worlds" + 123);
 console.log(null);
 console.log(a=4);
-*/
+
 
 //Js Essentials (Variables)
 //  var let const 
